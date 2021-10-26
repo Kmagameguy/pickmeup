@@ -1,4 +1,6 @@
-let firstPhrase = [
+'use strict'
+
+const firstPhrase = [
     'Champ,',
     'Fact:',
     'Everybody says',
@@ -19,7 +21,7 @@ let firstPhrase = [
     'Okay, listen up:'
 ];
 
-let secondPhrase = [
+const secondPhrase = [
     'the mere idea of you',
     'your soul',
     'your hair today',
@@ -40,7 +42,7 @@ let secondPhrase = [
     "all of y'all"
 ];
 
-let thirdPhrase = [
+const thirdPhrase = [
     'has serious game,',
     'rains magic,',
     'deserves the Nobel Prize,',
@@ -61,7 +63,7 @@ let thirdPhrase = [
     'is 100% legit,'
 ];
 
-let fourthPhrase = [
+const fourthPhrase = [
     '24/7.',
     'can I get an amen?',
     "and that's a fact.",
