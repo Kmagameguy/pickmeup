@@ -1,0 +1,19 @@
+body {
+    background-color: #efefef;
+}
+#main-container {
+    max-width: 70%;
+    margin-top: 2rem;
+}
+
+#main-content {
+    margin: 4rem 2rem;
+}
+
+#refresh-button {
+    margin-bottom: 1rem;
+}
+
+#footer-content {
+    font-size: 0.7rem;
+}
