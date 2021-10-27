@@ -83,11 +83,30 @@ const fourthPhrase = [
     'so get used to it.'
 ];
 
+const emojiList = [
+    '🤩️',
+    '❤️',
+    '✨️',
+    '👑️',
+    '🕺️',
+    '💃️',
+    '🤾️',
+    '🤙️',
+    '🤯️',
+    '🙌️',
+    '🌞️',
+    '🔥️',
+    '💯️',
+    '🎉️',
+    '🎊️'
+];
+
 let phrases = [
     firstPhrase,
     secondPhrase,
     thirdPhrase,
-    fourthPhrase
+    fourthPhrase,
+    emojiList
 ];
 
 const randomEntry = (list) => {
@@ -95,7 +114,7 @@ const randomEntry = (list) => {
 }
 
 const phrase = () => {
-    return `${randomEntry(firstPhrase)} ${randomEntry(secondPhrase)} ${randomEntry(thirdPhrase)} ${randomEntry(fourthPhrase)}`
+    return `${randomEntry(emojiList)} ${randomEntry(firstPhrase)} ${randomEntry(secondPhrase)} ${randomEntry(thirdPhrase)} ${randomEntry(fourthPhrase)} ${randomEntry(emojiList)}`
 }
 
 const btnClick = () => {
