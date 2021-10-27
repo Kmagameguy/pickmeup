@@ -107,14 +107,6 @@ const emojiList = [
     '🐐️'
 ];
 
-let phrases = [
-    firstPhrase,
-    secondPhrase,
-    thirdPhrase,
-    fourthPhrase,
-    emojiList
-];
-
 const randomEntry = (list) => {
     return list[Math.floor(Math.random() * list.length)]
 }
