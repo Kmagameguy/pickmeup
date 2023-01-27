@@ -1,110 +1,86 @@
 'use strict'
 
 const firstPhrase = [
-    'Champ,',
-    'Fact:',
-    'Everybody says',
-    'Dang...',
-    'Check it:',
-    'Just saying...',
-    'Superstar,',
-    'Tiger,',
-    'Self,',
-    'Know this:',
-    'News alert:',
-    'Girl,',
-    'Ace,',
-    'Excuse me but',
-    'Experts agree:',
-    'In my opinion',
-    'Hear ye, hear ye:',
-    'Okay, listen up:'
+    { text: 'Champ,',                      emoji: '🏅' }, 
+    { text: 'Fact:',                       emoji: '🤓' },
+    { text: 'Everybody says',              emoji: '👯' },
+    { text: 'Dang...',                     emoji: '😏' },
+    { text: 'Check it:',                   emoji: '📝' },
+    { text: 'Just saying...',              emoji: '💬' },
+    { text: 'Superstar,',                  emoji: '🕺️' },
+    { text: 'Tiger,',                      emoji: '🐯' },
+    { text: 'Self,',                       emoji: '🤳' },
+    { text: 'Know this:',                  emoji: '🧑‍🏫' },
+    { text: 'News alert:',                 emoji: '📰🚨' },
+    { text: 'Girl,',                       emoji: '💁‍♀️' },
+    { text: 'Ace,',                        emoji: '🧑‍✈️' },
+    { text: 'Excuse me but',               emoji: '😳' },
+    { text: 'Experts agree:',              emoji: '👍' },
+    { text: 'In my opinion',               emoji: '🤔' },
+    { text: 'Hear ye, hear ye:',           emoji: '📣' },
+    { text: 'Okay, listen up:',            emoji: '👂' }
 ];
 
 const secondPhrase = [
-    'the mere idea of you',
-    'your soul',
-    'your hair today',
-    'everything you do',
-    'your personal style',
-    'every thought you have',
-    'that sparkle in your eye',
-    'your presence here',
-    'what you got going on',
-    'the essential you',
-    "your life's journey",
-    'that saucy personality',
-    'your DNA',
-    'that brain of yours',
-    'your choice of attire',
-    'the way you roll',
-    'whatever your secret is',
-    "all of y'all"
+    { text: 'the mere idea of you',        emoji: '💡' },
+    { text: 'your soul',                   emoji: '😇' },
+    { text: 'your hair today',             emoji: '💇' },
+    { text: 'everything you do',           emoji: '🦸' },
+    { text: 'your personal style',         emoji: '😎' },
+    { text: 'every thought you have',      emoji: '💭' },
+    { text: 'that sparkle in your eye',    emoji: '👁️✨' },
+    { text: 'your presence here',          emoji: '🫶' },
+    { text: 'what you got going on',       emoji: '👋' },
+    { text: 'the essential you',           emoji: '🧘' },
+    { text: "your life's journey",         emoji: '🗺️' },
+    { text: 'that saucy personality',      emoji: '🥵' },
+    { text: 'your DNA',                    emoji: '🧬' },
+    { text: 'that brain of yours',         emoji: '🧠' },
+    { text: 'your choice of attire',       emoji: '🧣' },
+    { text: 'the way you roll',            emoji: '🤸' },
+    { text: 'whatever your secret is',     emoji: '🤫' },
+    { text: "all of y'all",                emoji: '👪' }
 ];
 
 const thirdPhrase = [
-    'has serious game,',
-    'rains magic,',
-    'deserves the Nobel Prize,',
-    'raises the roof,',
-    'breeds miracles,',
-    'is paying off big time,',
-    'shows mad skills,',
-    'just shimmers,',
-    'is a national treasure,',
-    'gets the party hopping,',
-    'is the next big thing,',
-    'roars like a lion,',
-    'is a rainbow factory,',
-    'is made of diamonds,',
-    'makes birds sing,',
-    'should be taught in school,',
-    "makes my world go 'round,",
-    'is 100% legit,'
+    { text: 'has serious game,',           emoji: '🤾️' },
+    { text: 'rains magic,',                emoji: '🌧️🪄' },
+    { text: 'deserves the Nobel Prize,',   emoji: '🏆' },
+    { text: 'raises the roof,',            emoji: '🙌' },
+    { text: 'breeds miracles,',            emoji: '💞' },
+    { text: 'is paying off big time,',     emoji: '🤑' },
+    { text: 'shows mad skills,',           emoji: '🧗' },
+    { text: 'just shimmers,',              emoji: '🌟' },
+    { text: 'is a national treasure,',     emoji: '🪙' },
+    { text: 'gets the party hopping,',     emoji: '🎉' },
+    { text: 'is the next big thing,',      emoji: '🤠' },
+    { text: 'roars like a lion,',          emoji: '🐯️' },
+    { text: 'is a rainbow factory,',       emoji: '🌈' },
+    { text: 'is made of diamonds,',        emoji: '💎️' },
+    { text: 'makes birds sing,',           emoji: '🐦' },
+    { text: 'should be taught in school,', emoji: '🏫' },
+    { text: "makes my world go 'round,",   emoji: '🌎' },
+    { text: 'is 100% legit,',              emoji: '💯️' }
 ];
 
 const fourthPhrase = [
-    '24/7.',
-    'can I get an amen?',
-    "and that's a fact.",
-    'so treat yourself.',
-    'you feel me?',
-    "that's just science.",
-    'would I lie?',
-    'for reals.',
-    'mic drop.',
-    'you hidden gem.',
-    'snuggle bear.',
-    'period.',
-    "now let's dance.",
-    'high five.',
-    'say it again!',
-    'according to CNN.',
-    'so get used to it.'
-];
-
-const emojiList = [
-    '🤩️',
-    '❤️',
-    '✨️',
-    '👑️',
-    '🕺️',
-    '💃️',
-    '🤾️',
-    '🤙️',
-    '🤯️',
-    '🙌️',
-    '🌞️',
-    '🔥️',
-    '💯️',
-    '🎉️',
-    '🎊️',
-    '🐯️',
-    '😍️',
-    '💪️',
-    '💎️',
-    '🦁️',
-    '🐐️'
+    { text: '24/7.',                       emoji: '📅' },
+    { text: 'can I get an amen?',          emoji: '🙏' },
+    { text: "and that's a fact.",          emoji: '📊' },
+    { text: 'so treat yourself.',          emoji: '💸' },
+    { text: 'you feel me?',                emoji: '🫡' },
+    { text: "that's just science.",        emoji: '🔬' },
+    { text: 'would I lie?',                emoji: '🤥' },
+    { text: 'for reals.',                  emoji: '🚫🧢' },
+    { text: 'mic drop.',                   emoji: '🫳🎤' },
+    { text: 'you hidden gem.',             emoji: '💎' },
+    { text: 'snuggle bear.',               emoji: '🧸' },
+    { text: 'period.',                     emoji: '🧨' },
+    { text: "now let's dance.",            emoji: '💃️' },
+    { text: 'high five.',                  emoji: '✋' },
+    { text: 'say it again!',               emoji: '🔁' },
+    { text: 'according to CNN.',           emoji: '📺' },
+    { text: 'so get used to it.',          emoji: '💪️' }
 ];
 
 const randomEntry = (list) => {
@@ -112,7 +88,27 @@ const randomEntry = (list) => {
 }
 
 const phrase = () => {
-    return `${randomEntry(emojiList)} ${randomEntry(firstPhrase)} ${randomEntry(secondPhrase)} ${randomEntry(thirdPhrase)} ${randomEntry(fourthPhrase)} ${randomEntry(emojiList)}`
+    let selections = [ randomEntry(firstPhrase),
+                       randomEntry(secondPhrase),
+                       randomEntry(thirdPhrase),
+                       randomEntry(fourthPhrase) ];
+    let emojis = [];
+    let phrase = [];
+    let firstEmoji = '';
+
+    selections.forEach((item, index) => {
+      // Always use the first phrase's emoji for cohesiveness
+      if(index === 0) {
+        firstEmoji = item.emoji;
+      // Otherwise build a random list of emojis to pick from for the end-cap
+      } else {
+        emojis.push(item.emoji);
+      }
+      phrase.push(item.text);
+    });
+
+    let secondEmoji = randomEntry(emojis);
+    return `${firstEmoji} ${phrase.join(' ')} ${secondEmoji}`
 }
 
 const btnClick = () => {
