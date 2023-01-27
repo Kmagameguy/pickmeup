@@ -91,7 +91,7 @@ const phrase = () => {
     let selections = [ randomEntry(firstPhrase),
                        randomEntry(secondPhrase),
                        randomEntry(thirdPhrase),
-                       randomEntry(fourthPhrase) ]
+                       randomEntry(fourthPhrase) ];
     let emojis = [];
     let phrase = [];
     let firstEmoji = '';
